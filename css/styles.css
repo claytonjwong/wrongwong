@@ -12,7 +12,7 @@
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    background-color: #E6D9D1;
+    background-color: #2E2229;
 }
 
 .row-header {
@@ -22,7 +22,6 @@ body {
 
 .row-content {
     color: #eee;
-    border-bottom: 1px ridge;
     margin: 0px auto;
     min-height: 400px;
     padding: 50px 0px 50px 0px;
@@ -30,7 +29,7 @@ body {
 
 .footer {
     color: #eee;
-    background-color: #c1664f;
+    background-color: #400907;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -45,13 +44,6 @@ body {
 
 .blockquote-footer {
     color: #eee;
-}
-
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
 }
 
 .carousel {
@@ -69,3 +61,6 @@ body {
     min-height: 300px;
 }
 
+.carousel-anchor {
+    color: #eee;
+}
