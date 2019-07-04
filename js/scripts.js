@@ -1,5 +1,9 @@
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
+
+    $('[data-toggle="tooltip"]').tooltip({
+        trigger : 'hover'
+    })
+
     $("#mycarousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children("span").hasClass('fa-pause')) {
@@ -13,5 +17,7 @@ $(document).ready(function(){
             $("#carouselButton").children("span").addClass('fa-pause');
         }
     });
+
     $("#current_year").text(new Date().getFullYear());
+
 });
