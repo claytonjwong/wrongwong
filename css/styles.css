@@ -62,6 +62,10 @@ body {
 }
 
 .carousel-anchor {
+    color: #bbb;
+}
+
+.carousel-anchor:hover {
     color: #eee;
 }
 
