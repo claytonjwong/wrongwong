@@ -14,6 +14,15 @@ $carousel-item-height: 200px;
   @include zero-margin(70px,30px);
   background-color: $background-medium;
   color: floralwhite;
+  .img-fluid {
+    margin: 10px 10px 10px 10px;
+    max-width: 256px;
+  }
+  .media-body {
+    margin: 0px 10px 10px 0px;
+    max-width: 250px;
+    font-size: large;
+  }
 }
 
 .row-header {
@@ -22,7 +31,11 @@ $carousel-item-height: 200px;
 
 .row-content {
   @include zero-margin(50px,0px);
-  min-height:400px;
+  min-height:300px;
+}
+
+.col-header {
+  margin: 10px 10px 10px 10px;
 }
 
 body {
@@ -33,6 +46,14 @@ body {
 
 .navbar-dark {
   background-color: $background-dark;
+}
+
+.navbar-toggler {
+  margin: 0px 0px 0px 20px;
+}
+
+.nav-item {
+  margin: 0px 0px 0px 20px;
 }
 
 .carousel {
@@ -64,6 +85,23 @@ body {
   z-index: 1;
 }
 
+.card-body {
+  color: floralwhite;
+  background-color: $background-darkest;
+}
+
+.card a:link {
+  color: #eee;
+}
+
+.card-quote {
+  padding: 10px 10px 30px 10px;
+}
+
+.blockquote-footer {
+  color: #eee;
+}
+
 .footer {
   color: #eee;
   background-color: $background-darker;
@@ -77,7 +115,4 @@ body {
     color: #eee;
   }
 
-  .blockquote-footer {
-    color: #eee;
-  }
 }

@@ -3,6 +3,13 @@
   padding: 70px 30px;
   background-color: #822c24;
   color: floralwhite; }
+  .jumbotron .img-fluid {
+    margin: 10px 10px 10px 10px;
+    max-width: 256px; }
+  .jumbotron .media-body {
+    margin: 0px 10px 10px 0px;
+    max-width: 250px;
+    font-size: large; }
 
 .row-header {
   margin: 0px auto;
@@ -11,7 +18,10 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  min-height: 400px; }
+  min-height: 300px; }
+
+.col-header {
+  margin: 10px 10px 10px 10px; }
 
 body {
   padding: 50px 0px 0px 0px;
@@ -20,6 +30,12 @@ body {
 
 .navbar-dark {
   background-color: #65241d; }
+
+.navbar-toggler {
+  margin: 0px 0px 0px 20px; }
+
+.nav-item {
+  margin: 0px 0px 0px 20px; }
 
 .carousel {
   background: #2E2229; }
@@ -41,6 +57,19 @@ body {
   bottom: 0px;
   z-index: 1; }
 
+.card-body {
+  color: floralwhite;
+  background-color: #2E2229; }
+
+.card a:link {
+  color: #eee; }
+
+.card-quote {
+  padding: 10px 10px 30px 10px; }
+
+.blockquote-footer {
+  color: #eee; }
+
 .footer {
   color: #eee;
   background-color: #400907;
@@ -49,6 +78,4 @@ body {
   .footer a:link {
     color: #eee; }
   .footer a:visited {
-    color: #eee; }
-  .footer .blockquote-footer {
     color: #eee; }
