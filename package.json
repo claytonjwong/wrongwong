@@ -12,9 +12,10 @@
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "copydocs": "copyfiles -f docs/disclaimer.pdf dist/docs",
     "imagemin": "imagemin img/* --out-dir='dist/img'",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin food.html -d dist --htmlmin -o dist/food.html && usemin move.html -d dist --htmlmin -o dist/move.html && usemin mindset.html -d dist --htmlmin -o dist/mindset.html && usemin tools.html -d dist --htmlmin -o dist/tools.html && usemin social.html -d dist --htmlmin -o dist/social.html",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run copydocs && npm run usemin"
   },
   "repository": {
     "type": "git",

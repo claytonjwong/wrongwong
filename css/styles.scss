@@ -25,6 +25,34 @@ $carousel-item-height: 200px;
   }
 }
 
+.top-margin {
+  margin: 20px 0px 0px 0px;
+  color: floralwhite;
+}
+
+.top-margin-body {
+  margin: 70px 0px 0px 0px;
+  padding: 70px 0px 0px 0px;
+  color: floralwhite;
+}
+
+.white-anchor {
+  margin: 0px 10px 10px 0px;
+  color: #eee;
+  a:link {
+    color: #eee;
+  }
+  a:visited {
+    color: #eee;
+  }
+}
+
+.tooltip-inner {
+  a a:visited {
+    color: #eee;
+  }
+}
+
 .row-header {
   @include zero-margin(0px,0px);
 }
@@ -88,10 +116,13 @@ body {
 .card-body {
   color: floralwhite;
   background-color: $background-darkest;
+  a {
+    color: #eee !important;
+  }
 }
 
-.card a:link {
-  color: #eee;
+.card a {
+  color: #000;
 }
 
 .card-quote {

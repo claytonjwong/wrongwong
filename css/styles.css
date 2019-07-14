@@ -11,6 +11,26 @@
     max-width: 250px;
     font-size: large; }
 
+.top-margin {
+  margin: 20px 0px 0px 0px;
+  color: floralwhite; }
+
+.top-margin-body {
+  margin: 70px 0px 0px 0px;
+  padding: 70px 0px 0px 0px;
+  color: floralwhite; }
+
+.white-anchor {
+  margin: 0px 10px 10px 0px;
+  color: #eee; }
+  .white-anchor a:link {
+    color: #eee; }
+  .white-anchor a:visited {
+    color: #eee; }
+
+.tooltip-inner a a:visited {
+  color: #eee; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -60,9 +80,11 @@ body {
 .card-body {
   color: floralwhite;
   background-color: #2E2229; }
+  .card-body a {
+    color: #eee !important; }
 
-.card a:link {
-  color: #eee; }
+.card a {
+  color: #000; }
 
 .card-quote {
   padding: 10px 10px 30px 10px; }
