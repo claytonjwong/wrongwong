@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/claytonjwong/wrongwong.git"
   },
-  "author": "the wrong wong",
+  "author": "Clayton Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/claytonjwong/wrongwong/issues"
@@ -42,7 +42,9 @@
     "bootstrap": "^4.3.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "imagemin-gifsicle": "^6.0.1",
     "jquery": "^3.4.1",
+    "optipng": "^2.1.0",
     "popper.js": "^1.15.0"
   }
 }
